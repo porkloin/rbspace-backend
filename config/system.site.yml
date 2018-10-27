@@ -1,0 +1,14 @@
+uuid: 80a7259d-52e5-4a20-93fa-27db4c6848f1
+name: rbspace-backend
+mail: rybateman@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
