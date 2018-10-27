@@ -1,0 +1,12 @@
+.node--type-article {
+  .field--name-field-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img.image-style-circled {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

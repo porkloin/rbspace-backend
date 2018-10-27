@@ -1,0 +1,16 @@
+button, .button {
+  padding: .5rem 1rem;
+  background: none;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background: black;
+  letter-spacing: .1rem;
+  color: white;
+  &:hover {
+    transition-property: background, color;
+    transition-duration: .1s;
+    transition-timing-function: linear;
+    color: black;
+    background: white;
+  }
+}

@@ -1,0 +1,18 @@
+{# @Component
+name: Text
+group: Base
+description: A piece of HTML text in a span element.
+samples:
+  # This is where we define variants.  Variants are sets of values used
+  # for the variables in the template.
+  Standard:
+    text: Subtitle
+    modifier: standard
+  Uppercase:
+    text: Uppercase Subtitle
+    modifier: uppercase
+  Faded:
+    text: Faded Subtitle
+    modifier: faded
+#}
+<span class="text--{{modifier}}" >{{text}}</span>

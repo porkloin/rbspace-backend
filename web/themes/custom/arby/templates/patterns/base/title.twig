@@ -1,0 +1,29 @@
+{# @Component
+name: Title
+group: Base
+description: An HTML title
+samples:
+  # This is where we define variants.  Variants are sets of values used
+  # for the variables in the template.
+  Standard:
+    text: Title
+    modifier: standard
+    url: #
+  Standard Uppercase:
+    text: Uppercase Title
+    modifier: uppercase
+    url: #
+  Sans-Serif Uppercase:
+    text: Uppercase Sans-Serif
+    url: #
+    modifier: uppercase-sans
+#}
+<h2 class="title--{{modifier}}" >
+  {% if url %}
+    <a href="{{url}}">
+  {% endif %}
+  {{text}}
+  {% if url %}
+    </a>
+  {% endif %}
+</h2>

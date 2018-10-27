@@ -1,0 +1,21 @@
+.select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  select {
+    background: transparent;
+    min-width: 100px;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 2;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 38px;
+    -webkit-appearance: none;
+  }
+  i.fa {
+    position: absolute;
+    right: 10px;
+    z-index:-1;
+  }
+}
