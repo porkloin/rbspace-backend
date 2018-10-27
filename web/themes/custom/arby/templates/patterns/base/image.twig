@@ -1,0 +1,18 @@
+{# @Component
+name: Image
+group: Base
+description: An HTML Button
+samples:
+    # This is where we define variants.  Variants are sets of values used
+    # for the variables in the template.
+    Auto:
+        url: http://via.placeholder.com/100x100
+        modifier: auto
+    Full Bleed:
+        url: http://via.placeholder.com/2000x375
+        modifier: full-bleed
+    Circle:
+        url: http://via.placeholder.com/300x300
+        modifier: circle
+#}
+<img src="{{url}}" class="image--{{modifier}}" />

@@ -1,0 +1,13 @@
+{# @Component
+name: Link
+group: Base
+description: An HTML link.
+samples:
+  # This is where we define variants.  Variants are sets of values used
+  # for the variables in the template.
+  Standard:
+    link:
+      title: link
+      url: '#'
+#}
+<a href="{{link.url}}" class="link" >{{link.title}}</a>

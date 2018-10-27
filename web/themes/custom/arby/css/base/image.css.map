@@ -1,0 +1,1 @@
+{"version":3,"sources":["image.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB,EAAE","file":"image.css","sourcesContent":[".image--circle {\n  border-radius: 50%; }\n"]}

@@ -1,0 +1,14 @@
+.title--standard, .title--uppercase, .title--faded, .title--uppercase-faded {
+  letter-spacing: .05em;
+}
+.title--standard {
+  font-family: 'Neuton', serif;
+  * {
+    font-family: 'Neuton', serif;
+  }
+}
+.title--uppercase-sans {
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    font-weight: 300;
+}
