@@ -1,5 +1,0 @@
-global-styling:
-  css:
-    component:
-      node_modules/normalize.css/normalize.css: {}
-      css/styles.css: {}
