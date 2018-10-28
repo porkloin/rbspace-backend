@@ -1,9 +1,0 @@
-uuid: 95860277-8a09-4a6e-ac5b-88c5a0f2e600
-langcode: en
-status: true
-dependencies: {  }
-name: Skills
-vid: skills
-description: 'Different technologies used for projects.'
-hierarchy: 0
-weight: 0
