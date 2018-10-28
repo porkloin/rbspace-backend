@@ -1,3 +1,4 @@
+uuid: f8ba4520-6633-4171-a7d5-e7cd8727fa04
 langcode: en
 status: true
 dependencies:
@@ -14,6 +15,7 @@ type: image
 settings:
   uri_scheme: public
   default_image:
+    uuid: null
     alt: ''
     title: ''
     width: null

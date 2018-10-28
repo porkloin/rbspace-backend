@@ -1,3 +1,4 @@
+uuid: 944f3332-06bc-492d-a8df-fc9371391655
 langcode: en
 status: true
 dependencies: {  }
@@ -7,6 +8,7 @@ name: medium
 label: 'Medium (220×220)'
 effects:
   bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
     id: image_scale
     weight: 0
     data:
