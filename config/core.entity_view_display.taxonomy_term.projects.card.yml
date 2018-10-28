@@ -1,0 +1,37 @@
+uuid: f4cc1aaa-9fae-4f5c-9632-6c1cebe06663
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.card
+    - field.field.taxonomy_term.projects.field_featured_image
+    - field.field.taxonomy_term.projects.field_project_url
+    - field.field.taxonomy_term.projects.field_skills
+    - image.style.rectangled
+    - taxonomy.vocabulary.projects
+  module:
+    - image
+id: taxonomy_term.projects.card
+targetEntityType: taxonomy_term
+bundle: projects
+mode: card
+content:
+  field_featured_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: rectangled
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_skills:
+    weight: 0
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  description: true
+  field_project_url: true

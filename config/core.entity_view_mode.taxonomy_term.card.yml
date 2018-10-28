@@ -1,0 +1,10 @@
+uuid: 0809e6c5-e75a-4dc9-ba24-b24f60ff917d
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.card
+label: Card
+targetEntityType: taxonomy_term
+cache: true
