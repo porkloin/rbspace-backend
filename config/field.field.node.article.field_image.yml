@@ -1,4 +1,3 @@
-uuid: 319fe24c-8b3c-4bd8-80ae-cf9e6efa41d8
 langcode: en
 status: true
 dependencies:
@@ -30,7 +29,6 @@ settings:
   title_field: false
   title_field_required: false
   default_image:
-    uuid: 7b01ed4e-1666-494b-a6c8-f2331e5b7f7c
     alt: 'Code bracket'
     title: ''
     width: 300

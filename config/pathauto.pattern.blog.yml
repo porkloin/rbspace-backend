@@ -1,4 +1,3 @@
-uuid: 2566ecde-9bd1-4c9b-b39a-bb87e251de3a
 langcode: en
 status: true
 dependencies:
@@ -16,7 +15,6 @@ selection_criteria:
     negate: false
     context_mapping:
       node: node
-    uuid: b849a4db-5543-4f47-99ed-4d5d9f2ca584
 selection_logic: and
 weight: -5
 relationships: {  }

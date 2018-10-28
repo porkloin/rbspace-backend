@@ -1,4 +1,3 @@
-uuid: a4bb25b7-baa2-465e-aeef-3823b4a77a4f
 langcode: en
 status: true
 dependencies: {  }
@@ -6,7 +5,6 @@ name: rectangled
 label: Rectangled
 effects:
   69a96255-b37a-469b-913c-c2b738003020:
-    uuid: 69a96255-b37a-469b-913c-c2b738003020
     id: image_scale_and_crop
     weight: 1
     data:
