@@ -1,0 +1,56 @@
+uuid: a161af69-ebd2-437a-bb53-4e5ccfd85030
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - field.field.taxonomy_term.projects.field_featured_image
+    - field.field.taxonomy_term.projects.field_project_url
+    - field.field.taxonomy_term.projects.field_skills
+    - taxonomy.vocabulary.projects
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.projects.full
+targetEntityType: taxonomy_term
+bundle: projects
+mode: full
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_featured_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_project_url:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_skills:
+    weight: 0
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

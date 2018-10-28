@@ -26,7 +26,6 @@
         "webflo/drupal-core-strict": "^8",
         "drupal/admin_toolbar": "^1.22",
         "drupal/better_exposed_filters": "^3.0@alpha",
-        "drupal/bootstrap": "^3.6",
         "drupal/codesnippet": "^1.6",
         "drupal/components": "^1.0",
         "drupal/devel": "^1.2",

@@ -1,0 +1,15 @@
+uuid: e46185aa-e615-4a20-8a3f-31b12222f8b0
+langcode: en
+status: true
+dependencies: {  }
+name: squared
+label: Squared
+effects:
+  f098e7d8-1f40-4ab1-ab41-c1c213e41f89:
+    uuid: f098e7d8-1f40-4ab1-ab41-c1c213e41f89
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 768
+      anchor: center-center

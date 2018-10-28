@@ -1,0 +1,14 @@
+uuid: 52ca3c6e-2e22-4720-9a1b-f15670201f70
+name: 'Ryan Bateman'
+mail: rybateman@gmail.com
+slogan: 'Full Stack Web Developer'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
