@@ -1,4 +1,4 @@
-uuid: 60e65612-07e3-4383-bd26-8518174eae4c
+uuid: 84c02438-4c26-44b6-b71e-5cb2710dd1b1
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,12 @@ settings:
             - Subscript
             - '-'
             - RemoveFormat
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - Outdent
+            - Indent
         -
           name: Linking
           items:
@@ -41,6 +47,7 @@ settings:
             - DrupalImage
             - Table
             - HorizontalRule
+            - CodeSnippet
         -
           name: 'Block Formatting'
           items:
@@ -50,14 +57,51 @@ settings:
           items:
             - ShowBlocks
             - Source
+            - Styles
   plugins:
     stylescombo:
-      styles: ''
+      styles: 'img.img-circle|Circle Image'
+    language:
+      language_list: un
+    codesnippet:
+      highlight_style: railscasts
+      highlight_languages:
+        apache: apache
+        bash: bash
+        css: css
+        coffeescript: coffeescript
+        dart: dart
+        dockerfile: dockerfile
+        dust: dust
+        gherkin: gherkin
+        go: go
+        haml: haml
+        handlebars: handlebars
+        ini: ini
+        json: json
+        java: java
+        javascript: javascript
+        less: less
+        makefile: makefile
+        markdown: markdown
+        nginx: nginx
+        php: php
+        perl: perl
+        powershell: powershell
+        puppet: puppet
+        python: python
+        ruby: ruby
+        scss: scss
+        sql: sql
+        twig: twig
+        typescript: typescript
+        xml: xml
+        yaml: yaml
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

@@ -1,4 +1,4 @@
-uuid: 371f0ceb-f68b-4686-be7e-4963afaa9ab1
+uuid: 319fe24c-8b3c-4bd8-80ae-cf9e6efa41d8
 langcode: en
 status: true
 dependencies:
@@ -26,15 +26,15 @@ settings:
   max_resolution: ''
   min_resolution: ''
   alt_field: true
-  title_field: false
   alt_field_required: true
+  title_field: false
   title_field_required: false
   default_image:
-    uuid: null
-    alt: ''
+    uuid: 7b01ed4e-1666-494b-a6c8-f2331e5b7f7c
+    alt: 'Code bracket'
     title: ''
-    width: null
-    height: null
+    width: 300
+    height: 300
   handler: 'default:file'
   handler_settings: {  }
 field_type: image

@@ -1,0 +1,20 @@
+uuid: 120c4c23-8da6-4d18-a577-06d577d65cc6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - arby
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: arby_local_actions
+theme: arby
+region: featured
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

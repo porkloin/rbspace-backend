@@ -1,0 +1,22 @@
+uuid: 539bcd3e-50c1-4c72-95f4-8cc41350cbb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - arby
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: arby_help
+theme: arby
+region: featured
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

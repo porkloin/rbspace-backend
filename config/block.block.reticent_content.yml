@@ -1,0 +1,22 @@
+uuid: 74f8057b-dd08-44d6-925a-31e81ce3133c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - reticent
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: reticent_content
+theme: reticent
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

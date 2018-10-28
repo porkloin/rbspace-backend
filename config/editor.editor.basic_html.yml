@@ -1,4 +1,4 @@
-uuid: 39f1c727-ad72-4ccc-b719-5968f8c87310
+uuid: 9573be99-d225-45d5-b2d7-06f31ea85b56
 langcode: en
 status: true
 dependencies:
@@ -34,6 +34,7 @@ settings:
           items:
             - Blockquote
             - DrupalImage
+            - CodeSnippet
         -
           name: 'Block Formatting'
           items:
@@ -45,11 +46,47 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    language:
+      language_list: un
+    codesnippet:
+      highlight_style: railscasts
+      highlight_languages:
+        apache: apache
+        bash: bash
+        css: css
+        coffeescript: coffeescript
+        dart: dart
+        dockerfile: dockerfile
+        dust: dust
+        gherkin: gherkin
+        go: go
+        haml: haml
+        handlebars: handlebars
+        ini: ini
+        json: json
+        java: java
+        javascript: javascript
+        less: less
+        makefile: makefile
+        markdown: markdown
+        nginx: nginx
+        php: php
+        perl: perl
+        powershell: powershell
+        puppet: puppet
+        python: python
+        ruby: ruby
+        scss: scss
+        sql: sql
+        twig: twig
+        typescript: typescript
+        xml: xml
+        yaml: yaml
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

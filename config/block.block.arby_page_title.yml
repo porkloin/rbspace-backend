@@ -1,0 +1,27 @@
+uuid: bc7b8e6b-60d6-4caa-9721-9523b16bf85c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arby
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: arby_page_title
+theme: arby
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

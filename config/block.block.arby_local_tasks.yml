@@ -1,0 +1,22 @@
+uuid: 5839f592-1ec9-4193-a585-dfd586ab9e43
+langcode: en
+status: true
+dependencies:
+  theme:
+    - arby
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: arby_local_tasks
+theme: arby
+region: featured
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

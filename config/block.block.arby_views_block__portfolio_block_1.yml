@@ -1,0 +1,30 @@
+uuid: 0fa95758-66c3-4568-89fe-8cb87471523d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.portfolio
+  module:
+    - system
+    - views
+  theme:
+    - arby
+id: arby_views_block__portfolio_block_1
+theme: arby
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:portfolio-block_1'
+settings:
+  id: 'views_block:portfolio-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

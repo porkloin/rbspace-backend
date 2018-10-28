@@ -1,4 +1,4 @@
-uuid: 56a6d172-b9b5-4154-bf43-7e7a50cb2877
+uuid: 26eec1ab-3d00-4290-9254-1c1a202936cb
 langcode: en
 status: true
 dependencies:
@@ -598,6 +598,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -638,6 +639,7 @@ display:
               authenticated: authenticated
               anonymous: '0'
               administrator: '0'
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -742,6 +744,8 @@ display:
         menu_name: admin
         weight: 0
         context: ''
+        enabled: true
+        expanded: false
       display_description: ''
       defaults:
         pager: true
@@ -1114,6 +1118,9 @@ display:
           admin_label: 'File usage'
           required: true
       display_extenders: {  }
+      menu:
+        enabled: true
+        expanded: false
     cache_metadata:
       contexts:
         - 'languages:language_interface'

@@ -1,11 +1,11 @@
-uuid: 8ffd1e6b-6439-4b7a-9ff3-235955dc576c
+uuid: 71ebae4a-682e-47c0-83f3-1bb330833ec7
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+  default_config_hash: U9HspszLxcw6pZmRacFa6yDbbheyMN-We4fPbrWWHGg
 id: node_save_action
 label: 'Save content'
 type: node

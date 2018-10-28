@@ -1,0 +1,22 @@
+uuid: 35f08fa5-d90e-4b90-b4f5-03d90e3c1ef5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - reticent
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: reticent_messages
+theme: reticent
+region: header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

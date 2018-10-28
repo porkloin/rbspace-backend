@@ -1,0 +1,20 @@
+uuid: e29d6f4c-63e1-490e-843a-107157494b53
+langcode: en
+status: true
+dependencies:
+  theme:
+    - reticent
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: reticent_local_actions
+theme: reticent
+region: header
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 29ed94a2-a00f-4e1d-9b2d-a48df42bee1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - reticent
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: reticent_page_title
+theme: reticent
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

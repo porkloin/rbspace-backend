@@ -1,0 +1,22 @@
+uuid: bd1ac156-f49b-455f-80b7-e4a73e0c3572
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arby
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: arby_powered
+theme: arby
+region: footer
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

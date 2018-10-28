@@ -1,4 +1,4 @@
-uuid: 7d4cfc97-7e35-436b-ae7d-1508ec7f5ce2
+uuid: b65f00c4-77fe-48cb-ac03-bee49f522098
 langcode: en
 status: true
 dependencies: {  }
@@ -17,3 +17,4 @@ permissions:
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view disqus comments'
