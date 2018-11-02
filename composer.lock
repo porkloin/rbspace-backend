@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4d2b24ab9864daf8c9749dedcc4a36d",
+    "content-hash": "2967e36906199d70ce19cde5c1b39692",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3037,6 +3037,57 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/twig_tweak",
                 "issues": "https://www.drupal.org/project/issues/twig_tweak"
+            }
+        },
+        {
+            "name": "drupal/webhooks",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/webhooks",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webhooks-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "396388a467e2240dd6d17496b0e3d5063e363cc0"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1471001339",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "sanduhrs",
+                    "homepage": "https://www.drupal.org/user/28074"
+                }
+            ],
+            "description": "User-defined HTTP callbacks",
+            "homepage": "https://www.drupal.org/project/webhooks",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/webhooks",
+                "issues": "https://www.drupal.org/project/issues/webhooks"
             }
         },
         {
@@ -8262,9 +8313,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/simple_block": 10,
         "drupal/better_exposed_filters": 15,
-        "drupal/disqus": 5
+        "drupal/disqus": 5,
+        "drupal/simple_block": 10,
+        "drupal/webhooks": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
