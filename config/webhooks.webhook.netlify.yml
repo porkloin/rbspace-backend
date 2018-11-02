@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 id: netlify
 label: Netlify
-payload_url: 'https://api.netlify.com/build_hooks/'
+payload_url: 'https://api.netlify.com/build_hooks/5bdbd638c6aed63f734ea9b1'
 type: outgoing
 last_usage: null
 events: 'a:9:{s:18:"entity:node:create";s:18:"entity:node:create";s:18:"entity:node:update";s:18:"entity:node:update";s:18:"entity:node:delete";s:18:"entity:node:delete";s:18:"entity:user:create";i:0;s:18:"entity:user:update";i:0;s:18:"entity:user:delete";i:0;s:21:"entity:comment:create";i:0;s:21:"entity:comment:update";i:0;s:21:"entity:comment:delete";i:0;}'
