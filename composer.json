@@ -30,6 +30,7 @@
         "drupal/jsonapi": "^1.23",
         "drupal/jsonapi_extras": "^2.10",
         "drupal/pathauto": "^1.0",
+        "drupal/pathologic": "^1.0@alpha",
         "drupal/simple_block": "^1.0@beta",
         "drupal/twig_field_value": "^1.1",
         "drupal/twig_tweak": "^1.9",
