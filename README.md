@@ -3,10 +3,16 @@
 [![CircleCI](https://circleci.com/gh/porkloin/rbspace-backend.svg?style=shield)](https://circleci.com/gh/porkloin/rbspace-backend)
 [![Dashboard rbspace-backend](https://img.shields.io/badge/dashboard-rbspace_backend-yellow.svg)](https://dashboard.pantheon.io/sites/599d51e8-07e0-4a90-b7ed-f88f1f66b635#dev/code)
 [![Dev Site rbspace-backend](https://img.shields.io/badge/site-rbspace_backend-blue.svg)](http://dev-rbspace-backend.pantheonsite.io/)
+[![Gatsby Front-End Site rbspace-frontend](https://img.shields.io/badge/site-rbspace_frontend-yellow.svg)](http://www.ryanbateman.space/)
+[![Front-End Repo](https://img.shields.io/badge/site-Front_End_Repo-orange.svg)](http://www.ryanbateman.space/)
 
 ## Ryan Bateman Dot Space - "Backend" Edition :neckbeard:
 
 This repo is a Drupal 8 codebase that runs the backend website for my Blog, [Ryan Bateman Dot Space](http://www.ryanbateman.space).
+
+### Decoupled Architecture
+
+This codebase is designed to serve exclusively as a content repository for a completely separate front-end website. It serves site contents via [Drupal 8's JSONAPI Module](https://www.drupal.org/project/jsonapi) and serves them via a statically-built [GatsbyJS](http://gatsbyjs.org/) website.
 
 ### Workflow
 
