@@ -1,7 +1,9 @@
 uuid: 9ed4d2e5-f885-4f38-a9c1-7935ded8a8aa
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - pathologic
 _core:
   default_config_hash: KUjJ8Ti_ZJSlhGM88E_mhJP-8mmQRNUB6RFof615Kt0
 name: 'Restricted HTML'
@@ -30,3 +32,13 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  filter_pathologic:
+    id: filter_pathologic
+    provider: pathologic
+    status: true
+    weight: 50
+    settings:
+      settings_source: global
+      local_settings:
+        protocol_style: full
+        local_paths: ''

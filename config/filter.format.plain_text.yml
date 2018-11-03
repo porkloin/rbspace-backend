@@ -1,7 +1,9 @@
 uuid: 63f2f268-e9fb-409b-8ee2-a841e91569f8
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - pathologic
 _core:
   default_config_hash: NIKBt6kw_uPhNI0qtR2DnRf7mSOgAQdx7Q94SKMjXbQ
 name: 'Plain text'
@@ -27,3 +29,13 @@ filters:
     status: true
     weight: 0
     settings: {  }
+  filter_pathologic:
+    id: filter_pathologic
+    provider: pathologic
+    status: true
+    weight: 50
+    settings:
+      settings_source: global
+      local_settings:
+        protocol_style: full
+        local_paths: ''
